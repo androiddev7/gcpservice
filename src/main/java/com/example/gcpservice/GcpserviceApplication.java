@@ -11,7 +11,7 @@ import com.google.auth.oauth2.GoogleCredentials;
 
 @SpringBootApplication
 @RestController
-public class GcpserviceApplication {
+public class GcpserviceApplication extends SpringBootServletInitializer {
 
 	public static void main(String[] args) {
 		/*
